@@ -70,7 +70,7 @@ class DriverStateRenderer(Widget):
     self.v_arc_lines = [rl.Vector2(0, 0) for _ in range(ARC_POINT_COUNT)]
 
     # Load the driver face icon
-    self.dm_img = gui_app.texture("icons/driver_face.png", IMG_SIZE, IMG_SIZE)
+    #self.dm_img = gui_app.texture("icons/driver_face.png", IMG_SIZE, IMG_SIZE)
 
     # Colors
     self.white_color = rl.Color(255, 255, 255, 255)
